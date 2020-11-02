@@ -3,7 +3,7 @@
 
 main:
 
-            LDR     R0, =A   // point R0 to the memory location defined by 'A'
+            LDR     R0, =A   // point R0 to the memory location defined by label 'A'
             MOV     R1, #5   // put the number '5' into R1
             STR     R1, [R0] // store the value in R1 in the address pointed at by R0
 
