@@ -1,4 +1,4 @@
-# raspberryPiARMAssembleyCourse
+# Programming in assembley language on Raspberry Pi
 Notes and homework from [ARM Raspberry Pi Assembly Language From Ground Up](https://www.udemy.com/course/arm-raspberry-pi-assembly-programming-from-ground-uptm/) Udemy course.
 
 # Why am I doing this
