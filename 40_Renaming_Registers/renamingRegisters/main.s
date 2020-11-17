@@ -6,7 +6,7 @@ VAL2        .req        R2
 SUM         .req        R3
 
 
-            .global main // use gloabl to make the label 'main' available in other files
+            .global main // use gloabl to export the label 'main' which contains the assembly routine to make it available in other files
 
 
 main:
