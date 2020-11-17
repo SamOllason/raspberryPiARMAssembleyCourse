@@ -25,6 +25,7 @@ Why ARM in particular? Because the RISC instruction used by ARM processors set i
 `./lesson42` execute!
 
 
+
 `as -g -o lesson42.o lesson42.s` assemble and allow debugging
 
 `ld lesson42.o -o lesson42` link (as normal)
@@ -32,8 +33,13 @@ Why ARM in particular? Because the RISC instruction used by ARM processors set i
 `gbd lesson42` run the executable with debugger
 
 `l` show original assembly code
+
 `b 8` set breakpoint at line 8
+
 `r` run until breakpoint
+
 `disas` show disassembled view, which maps the assembly code to the corresponding machine code
+
 `x 0x2000` show the value at a particular memory address
+
 `q` quit debugging
