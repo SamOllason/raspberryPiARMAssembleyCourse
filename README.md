@@ -15,13 +15,18 @@ Why ARM in particular? Because the RISC instruction used by ARM processors set i
 * Linking - combines multiple object files into an executable file (lesson42)
 
 `vim lesson42.s`
+
 (use vim)
+
 `as -o lesson42.o lesson42.s` assemble lesson42.s and store result in file called lesson42.o
+
 `ld lesson42.o -o lesson42` link lesson42.o and store in an executable called lesson42
+
 `./lesson42` execute!
 
 
 `as -g -o lesson42.o lesson42.s` assemble and allow debugging
+
 `ld lesson42.o -o lesson42` link (as normal)
 
 `gbd lesson42` run the executable with debugger
