@@ -30,13 +30,15 @@ Why ARM in particular? Because the RISC instruction used by ARM processors set i
 
 `ld lesson42.o -o lesson42` link (as normal)
 
-`gbd lesson42` run the executable with debugger
+`gdb lesson42` run the executable with debugger
 
 `l` show original assembly code
 
 `b 8` set breakpoint at line 8
 
 `r` run until breakpoint
+
+`i r` show content of registers at current point of execution
 
 `disas` show disassembled view, which maps the assembly code to the corresponding machine code
 
