@@ -14,9 +14,9 @@ Why ARM in particular? Because the RISC instruction used by ARM processors set i
 * Assembling - takes assembley code (lesson42.s) and convert into a file containing object code (lesson 42.0)
 * Linking - combines multiple object files into an executable file (lesson42)
 
-`vim lesson42.s`
+### Non-debug mode
 
-(use vim)
+`vim lesson42.s`
 
 `as -o lesson42.o lesson42.s` assemble lesson42.s and store result in file called lesson42.o
 
@@ -25,6 +25,7 @@ Why ARM in particular? Because the RISC instruction used by ARM processors set i
 `./lesson42` execute!
 
 
+### Debbugging mode
 
 `as -g -o lesson42.o lesson42.s` assemble and allow debugging
 
